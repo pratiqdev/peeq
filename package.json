@@ -1,6 +1,6 @@
 {
   "name": "peeq",
-  "displayName": "peeq",
+  "displayName": "PEEQ",
   "publisher": "pratiqdev",
   "description": "",
   "version": "0.0.1",
@@ -21,23 +21,23 @@
     "commands": [
       {
         "command": "peeq.enable",
-        "title": "peeq: Enable"
+        "title": "PEEQ: Enable File Explorer Filtering"
       },
       {
         "command": "peeq.disable",
-        "title": "peeq: Disable"
+        "title": "PEEQ: Disable File Explorer Filtering"
       },
       {
         "command": "peeq.zone",
-        "title": "peeq: Set Zone"
+        "title": "PEEQ: Set Active Zone"
       },
       {
         "command": "peeq.nextZone",
-        "title": "peeq: Cycle Next Zone"
+        "title": "PEEQ: Cycle To Next Zone"
       },
       {
         "command": "peeq.defaults",
-        "title": "peeq: Set Defaults"
+        "title": "PEEQ: Save Default File Exclusion Patterns"
       }
     ]
   },
