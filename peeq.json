@@ -1,0 +1,21 @@
+{
+    "docs":[ "**/**.md*(x)" ],
+    "dev": [
+        "src/**",
+        "**/**.ts*(x)",
+        ".eslintrc.json"
+    ],
+    "devops":[
+        "package.json",
+        "package-lock.json",
+        "peeq.json",
+        "tsconfig.json",
+        "webpack.config.json",
+        "LICENSE",
+        "CHANGELOG.md",
+        ".vscodeignore",
+        ".gitignore",
+        "node_modules/**",
+        "dist/**"
+    ]
+}
