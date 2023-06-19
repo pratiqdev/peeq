@@ -1,8 +1,5 @@
-
-<p align="center"><img src="peeq.png" alt="Image" width="100" height="100"></p>
-
-<p align="center"><b>File filtering extension for Visual Studio Code.</b></p>
-<p align="center">Don't get lost in a massive codebase - show only relevant files in the explorer.</p>
+# PEEQ
+**Glob based file explorer filtering**
 
 ## Features
 
@@ -12,8 +9,8 @@
 
 ## Usage
 
-### 1. Create a `peeq.json` file in your workspace root.  
-This file defines the glob pattern sets (zones) for file filtering.
+Create a `peeq.json` file in your workspace root. This file defines the glob pattern sets (zones) for file filtering.
+
 
 ```json
 {
@@ -35,19 +32,25 @@ This file defines the glob pattern sets (zones) for file filtering.
     ]
 }
 ```
-### 2. Create a `peeq.json` file in your workspace root.  
    
-
 
 ## Methods
 
-### `peeq.enable` "peeq: Enable"
-Enable file filtering. The `peeq.json` config file will be loaded and parsed if available for user defined zones
-containing glob patterns.
-  - `peeq.disable`: Disable the file filtering.
-  - `peeq.defaults`: Save the current file exclusion rules as the default. This is useful if you have existing file exclusion rules that you want to restore when the filtering is disabled.
-  - `peeq.nextZone`: Switch to the next zone defined in the `peeq.json` file.
-  - `peeq.zone`: Select a specific zone from the `peeq.json` file.
+Use the provided methods and commands to control PEEQ.
+
+---
+### `peeq.enable` "PEEQ: Enable File Explorer Filtering"
+Enable file explorer filtering for the current workspace. The `peeq.json` config file will be loaded and parsed if available for user defined zones containing glob patterns.
+
+---
+### `peeq.disable` ""PEEQ: Disable File Explorer Filtering"
+---
+### `peeq.defaults` ""PEEQ: Save Default File Exclusion Rules"
+---
+### `peeq.zone` ""PEEQ: Set Active Zone"
+---
+### `peeq.nextZone` ""PEEQ: Cycle To Next Zone"
+---
 
 ## Limitations
 
