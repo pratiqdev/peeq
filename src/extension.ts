@@ -85,6 +85,7 @@ const setExclusionRules = (rules?:Record<string, boolean>) => {
 				...state.defaults,
 				[startBracket]: true,
 				...rules,
+				"peeq.json":true,
 				[endBracket]: true,
 				
 			});
