@@ -3,7 +3,7 @@
   "displayName": "PEEQ",
   "publisher": "pratiqdev",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon":"peeq.png",
   "repository": {
     "type": "git",
@@ -52,8 +52,8 @@
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
     "purge": "rm -rf peeq-0.0.* & cd ~/.vscode/extensions && rm -rf pratiqdev.*",
-    "un": "code --uninstall-extension peeq-0.0.1.vsix",
-    "in": "code --install-extension peeq-0.0.1.vsix",
+    "un": "code --uninstall-extension peeq-0.0.3.vsix",
+    "in": "code --install-extension peeq-0.0.3.vsix",
     "build": "npm run un & npm run purge & vsce package"
   },
   "devDependencies": {

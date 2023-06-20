@@ -1,4 +1,4 @@
-# peɘq
+# PEEQ
  
 **Focus on the content that matters, hide everything else with glob based file explorer filtering.**
 

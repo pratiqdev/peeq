@@ -1,17 +1,5 @@
 # Change Log
 
-All notable changes to the "peeq" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
-
-
-## Release Notes
-
---- 
 ### 0.0.1
 
 - Initial release of peeq. 
@@ -22,3 +10,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Updated README.md
 - Added MIT license file
+
+--- 
+### 0.0.3
+
+- Fixed background color issue for icon image.
+- Changed status-bar icon
+- Fixed typos in README.md
