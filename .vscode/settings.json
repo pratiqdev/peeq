@@ -17,7 +17,7 @@
         "**/log/**": true,
         "**/.fdk/**": true,
         "out": false,
-        "dist": false,
+        "dist": false
     },
     "search.exclude": {
         "out": true, // set this to false to include "out" folder in search results

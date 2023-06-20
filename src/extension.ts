@@ -173,7 +173,7 @@ function generateAndSetExcludeRules(): void {
 let statusBarItem:vscode.StatusBarItem | null = null;
 const toggleColor = () => {
 	if(!statusBarItem){ return; }
-	statusBarItem.text = state.enabled ? `$(zap) ${state.zone}` : `$(zap) disabled`;
+	statusBarItem.text = state.enabled ? `$(eye) ${state.zone}` : `$(eye-closed) disabled`;
 	statusBarItem.tooltip = state.enabled ? "Cycle Next Zone" : `Enable ${namespace} filtering`;
 	statusBarItem.command = `${namespace}.nextZone`;
 	statusBarItem.color = "yellow";
